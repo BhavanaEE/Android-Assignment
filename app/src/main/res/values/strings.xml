@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Details</string>
+    <string name="submit">submit</string>
+    <string name="my_details">My Details</string>
+    <string name="nameET">Name</string>
+    <string name="ageET">Age</string>
+    <string name="emailET">Email</string>
+    <string name="numberET">Number</string>
+    <string name="pleaseEnterName">Please Enter Name</string>
+    <string name="pleaseEnterAge">Please Enter Age</string>
+    <string name="pleaseEnterEmail">Please Enter Email</string>
+    <string name="pleaseEnterMobile">Please Enter Mobile</string>
+</resources>
