@@ -3,14 +3,16 @@
     android:id="@+id/mainScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My details are..."
-        android:textStyle="bold" />
+        android:text="@string/my_details_are"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <GridLayout
         android:id="@+id/GridLayout1"
@@ -22,26 +24,34 @@
 
         <TextView
             android:id="@+id/nameTv"
-            android:layout_width="2dp"
-            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_columnWeight="1" />
 
         <TextView
             android:id="@+id/ageTv"
+            android:textColor="@color/black"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_columnWeight="1" />
 
         <TextView
             android:id="@+id/emailTv"
+            android:textColor="@color/black"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_columnWeight="1" />
 
         <TextView
             android:id="@+id/mobileNumberTv"
+            android:textColor="@color/black"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_columnWeight="1" />
 
 
