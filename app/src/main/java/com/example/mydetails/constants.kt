@@ -1,6 +1,6 @@
 package com.example.mydetails
 
-    val NAME="NAME"
-    val AGE="AGE"
-    val EMAIL="EMAIL"
-    val MOBILE="MOBILE"
+const val NAME="NAME"
+const val AGE="AGE"
+const val EMAIL="EMAIL"
+const val MOBILE="MOBILE"

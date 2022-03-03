@@ -8,7 +8,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class HomeActivity : AppCompatActivity() {
-    var emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -20,10 +19,10 @@ class HomeActivity : AppCompatActivity() {
 
         submit.setOnClickListener(){
             val intent= Intent(this,MainActivity::class.java)
-            intent.putExtra("NAME",name.text.toString())
-            intent.putExtra("AGE",age.text.toString())
-            intent.putExtra("EMAIL",email.text.toString())
-            intent.putExtra("MOBILE",mobile_number.text.toString())
+            intent.putExtra(NAME,name.text.toString())
+            intent.putExtra(AGE,age.text.toString())
+            intent.putExtra(EMAIL,email.text.toString())
+            intent.putExtra(MOBILE,mobile_number.text.toString())
             startActivity(intent)
         }
     }
