@@ -9,7 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val name=intent.getStringExtra(NAME)
-        print(NAME)
         val age=intent.getStringExtra(AGE)
         val email=intent.getStringExtra(EMAIL)
         val mobileNumber=intent.getStringExtra(MOBILE)
